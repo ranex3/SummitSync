@@ -1,0 +1,7 @@
+cryptography
+firebase-admin
+Flask-Cors
+google-auth-oauthlib
+googlemaps
+grpcio-status
+Flask

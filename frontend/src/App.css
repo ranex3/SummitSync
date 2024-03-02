@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.Account-button {
+  text-align: center;
+  font-size: 30px;
+  padding: 12px 36px;
+  margin: 8px;
+  border: yes;
+  cursor: pointers;
+  transition: background-color 0.3s ease;
+}
+
+.Account-button:hover {
+  background-color :#334293
+}
+
+.page-name {
+  text-align: center;
+  font-size: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.menuItems {
+  font-size:20px;
+  padding: 5px 10px;
+  background-color: skyblue;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cardStyle {
+  width: 18rem;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.selectMultipleChipBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-label {
+  font-weight: bold;
+}
+
+.filter-slider {
+  width: 200px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.filter-value {
+  font-weight: bold;
+  color: #555;
+}
+
+.conf-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.conf-page {
+  margin-left: 2%;
+}
+
+.delete-button {
+  margin-right: 2%;
+  float: right;
+}
